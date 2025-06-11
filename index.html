@@ -10,10 +10,13 @@
     <title>Calculator App</title>
 </head>
 <body>
+    <!-- MAIN CALCULATOR BODY -->
     <div class="calculator-body">
+        <!-- CALCULATOR CONTAINER -->
         <div class="calculator-container">
-            <textarea class="textbox-area" name="textBox" id="textBox"></textarea>
-            
+            <!-- DISPLAY AREA FOR INPUT AND RESULT -->
+            <div class="display-area" id="displayarea" role="textbox"></div>
+            <!-- GRID OF CALCULATOR BUTTONS -->
             <div class="calculator-buttons-grid">
                 <button class="calculator-button operand" data-value="1">1</button>
                 <button class="calculator-button operand" data-value="2">2</button>
@@ -35,7 +38,7 @@
 
                 <button class="calculator-button operand" data-value=".">.</button>
                 <button class="calculator-button operand" data-value="0">0</button>
-                <button class="calculator-button backspace" data-value="back"><img src="img.svg" alt="backspace"></button>
+                <button class="calculator-button backspace" data-value="back"><img src="img.svg" alt="Erase button"></button>
                 <button class="calculator-button clear" data-value="C">C</button>
                 <button class="calculator-button equal" data-value="=">=</button>
             </div>
