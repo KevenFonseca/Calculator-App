@@ -31,7 +31,8 @@ None. Just a modern web browser.
 
 ## Demo
 
-![Calculator Interface](calculator_interface.png)
+Calculator Interface -> ![image](https://github.com/user-attachments/assets/f5cdd2d5-59fa-4419-95f6-132a18f5ee93)
+
 
 ---
 
