@@ -56,7 +56,7 @@ LINE HEIGHTS
     /* LINE HEIGHTS */
     --line-heights-normal: 1;
 
-    /* COLOR */
+    /* COLORS */
     --color-white: #ffffff;
     --color-black: #000000;
     --color-Indigo-Blue: #3a3f77;
@@ -116,7 +116,8 @@ html {
     background-color: var(--color-Indigo-Blue);
     border-radius: 2rem;
     user-select: none;
-    overflow: auto;  
+    overflow-x: auto; 
+    white-space: nowrap; 
 }
 
 /* GRID OF CALCULATOR BUTTONS */
